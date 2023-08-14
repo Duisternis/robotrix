@@ -9,12 +9,14 @@ body {
     padding: 0;
 }
 
-.hero{
+.landing{
     display: flex;
     flex-direction: column;
     align-items: center;
     margin: none;
     justify-content: space-around;
+    padding-top: 70px;
+    overflow-x: hidden;
 }
 
 .front{
