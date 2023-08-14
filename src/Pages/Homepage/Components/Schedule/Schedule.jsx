@@ -4,6 +4,7 @@ import time from "./assets/time.png"
 import venue from "./assets/venue.png"
 
 
+
 export default function Schedule() {
   return(
     <div id="Schedule">
@@ -12,13 +13,14 @@ export default function Schedule() {
         <div 
         className="event" 
         id="event-1">
+          <p>Inauguration</p>
         <div className="format">
           <img src={time} alt="time"></img>
           <p>16:00</p>
         </div>
         <div className="format">
           <img src={venue} alt="time"></img>
-          <p>Inauguration</p>
+          <p>LT-3</p>
         </div>
         </div>
       </div>
