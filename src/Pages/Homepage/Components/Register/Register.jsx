@@ -5,9 +5,9 @@ import "./Register.css";
 
 export default function Register() {
   return (
-    <div className="register-section" id="register-sec">
+    <div id="register-sec">
       <div className="heading">Register</div>
-      <div>
+      <div className="register-section">
         <form action="/" className="reg-content form" method="post">
           <input type="text" required placeholder="Name" />
           <input type="number" required placeholder="Enrollment No." />
