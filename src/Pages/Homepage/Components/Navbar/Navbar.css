@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,800&display=swap');
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 4rem;
+  font-size: x-large;
+  font-family: "Poppins";
+}
+.navbar div {
+  display: flex;
+  gap: 4rem;
+}
+
+.nav-items {
+  text-decoration: none;
+}
+
+#register {
+  border: 5px solid white;
+  border-radius: 80px;
+  padding: 2px 20px;
+}
