@@ -7,32 +7,12 @@ export default function Register() {
   return (
     <div className="register-section" id="register-sec">
       <div className="heading">Register</div>
-      <div className="content">
-        <form action="/" method="post">
-          <ul className="form">
-            <li>
-              {" "}
-              <input type="text" required placeholder="Name" />
-            </li>
-            <li>
-              {" "}
-              <input type="number" required placeholder="Enrollment No." />
-            </li>
-            <li>
-              {" "}
-              <input type="email" required placeholder="JUIT Email Id" />
-            </li>
-            <li>
-              {" "}
-              <input type="Number" required placeholder="Contact No." />
-            </li>
-            {/* <li>
-              {" "}
-              <div className="submit-button">
-                <button >Submit</button>
-              </div>
-            </li> */}
-          </ul>
+      <div>
+        <form action="/" className="reg-content form" method="post">
+          <input type="text" required placeholder="Name" />
+          <input type="number" required placeholder="Enrollment No." />
+          <input type="email" required placeholder="JUIT Email Id" />
+          <input type="Number" required placeholder="Contact No." />
         </form>
         <div className="qrimage">
           <img src={qr} alt="" />
