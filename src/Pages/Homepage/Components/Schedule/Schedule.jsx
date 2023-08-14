@@ -1,5 +1,7 @@
 import React from "react";
 import "./Schedule.css";
+import time from "./assets/time.png"
+import venue from "./assets/venue.png"
 
 
 export default function Schedule() {
@@ -10,10 +12,14 @@ export default function Schedule() {
         <div 
         className="event" 
         id="event-1">
-<div>
-            <img src={} alt="time"
-            <p>Inauguration</p>
-</div>
+        <div className="format">
+          <img src={time} alt="time"></img>
+          <p>16:00</p>
+        </div>
+        <div className="format">
+          <img src={venue} alt="time"></img>
+          <p>Inauguration</p>
+        </div>
         </div>
       </div>
     </div>
