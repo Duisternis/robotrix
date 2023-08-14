@@ -14,7 +14,37 @@ body {
     flex-direction: column;
     align-items: center;
     margin: none;
+    justify-content: space-around;
 }
+
+.front{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 17dvw;
+}
+
+.title{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.links{
+
+    display: flex;
+    flex-direction: row;
+    transform: rotate(-90deg);
+    gap: 25px;
+    margin-left: -33dvw;
+}
+
+.link{
+    text-decoration: none;
+}
+
 
 .cars{
     width: 100dvw;
@@ -43,7 +73,7 @@ body {
     width: 4 dvw;
     max-width: 100%;
     height: auto;
-    opacity: 0.5;
+    opacity: 0.3;
     background: transparent;
     margin-top: -50px;
 }
@@ -72,7 +102,7 @@ body {
         transform: translate(-10dvw,-4dvh);
     }
     100%{
-        opacity: 0.5;
+        opacity: 0.3;
         transform: translate(0,0);
     }
 }
@@ -83,7 +113,7 @@ body {
         transform: translate(10dvw,-4dvh);
     }
     100%{
-        opacity: 0.5;
+        opacity: 0.3;
         transform: translate(0,0);
     }
 }
