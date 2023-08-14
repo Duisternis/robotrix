@@ -1,36 +1,48 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,600&display=swap');
-
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,600&display=swap");
 
 #about {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
 }
 
 #upper-text {
-    color: #ED1C24;
-    font-size: 2.69dvw;
+  color: #ed1c24;
+  font-size: 2.69dvw;
 }
 #lower-text {
-    margin-top: 20px;
-    color: azure;
-    font-size: 2.5dvw;
-    text-align: center;
-    font-family: "Display";
+  margin-top: 20px;
+  color: azure;
+  font-size: 2.5dvw;
+  text-align: center;
+  font-family: "Display";
 }
 #box {
-    background-color: aliceblue;
-    height: 40dvw;
-    aspect-ratio: 16/9;
-    margin-bottom: 10dvw;
+  background-color: aliceblue;
+  height: 40dvw;
+  aspect-ratio: 16/9;
+  margin-bottom: 10dvw;
 }
 
 #about-text {
-    margin-top: 2dvw;
-    color: #ED1C24;
-    font-size: 7dvw;
-    text-align: left;
+  margin-top: 2dvw;
+  color: #ed1c24;
+  font-size: 7dvw;
+  text-align: left;
+  display: flex;
+  width: 100%;
+  align-items: flex-start;
+  padding-left: 10rem;
 }
 
+.treads {
+  position: absolute;
+  z-index: -1;
+  right: -5rem;
+  top: 45%;
+}
 
-
+#tread-2 {
+  top: 20%;
+}
