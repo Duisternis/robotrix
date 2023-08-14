@@ -24,6 +24,8 @@ export default function Navbar() {
           Register
         </a>
       </nav>
+
+      
     </>
   );
 }
