@@ -5,7 +5,7 @@
     gap: 10px;
 }
 #Footer {
-    margin-top:50dvw;
+    margin-top:40dvw;
     display: flex;
     flex-direction: column;
     background-color: rgb(39, 38, 38);
