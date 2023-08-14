@@ -2,6 +2,12 @@
   margin: 0;
   padding: 0;
 }
+#nav-register {
+  color: #ed1c24;
+}
+#nav-register::after {
+  background-color: #ed1c24;
+}
 .header {
   position: fixed;
   background: transparent;

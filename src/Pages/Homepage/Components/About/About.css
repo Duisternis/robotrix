@@ -6,18 +6,26 @@
   align-items: center;
   position: relative;
   overflow-x: hidden;
+  padding: 8rem 0;
+  padding-bottom: 5rem;
 }
-
+.about-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 #upper-text {
   color: #ed1c24;
-  font-size: 2.69dvw;
+  font-size: 3.45rem;
 }
 #lower-text {
   margin-top: 20px;
   color: azure;
-  font-size: 2.5dvw;
+  font-size: 2rem;
   text-align: center;
-  font-family: var(--formula-regular);
+  font-family: "Formula1 Display Regular";
+  padding: 0 4.7vw;
+  text-align: justify;
 }
 #box {
   background-color: aliceblue;

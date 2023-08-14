@@ -3,13 +3,12 @@ import Clock from "./assets/clock.png";
 import Location from "./assets/location.png";
 import Layer from "./assets/layer.png";
 import "./Schedule.css";
-import time from "./assets/time.png"
-import venue from "./assets/venue.png"
-
+import time from "./assets/time.png";
+import venue from "./assets/venue.png";
 
 export default function Schedule() {
   return (
-    <section class="cards-container">
+    <section class="cards-container" id="schedule">
       <div class="cards-outer">
         <h1>Schedule</h1>
         <div class="cards-inner">

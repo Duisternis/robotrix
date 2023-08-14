@@ -15,7 +15,7 @@ body {
   align-items: center;
   margin: none;
   justify-content: space-around;
-  padding-top: 70px;
+  padding-top: 15rem;
   overflow-x: hidden;
   position: relative;
 }
@@ -67,6 +67,7 @@ body {
   font-size: 1.75dvw;
   margin-top: -20px;
   animation: fade-in 5s;
+  font-family: "Formula1 Display Regular";
 }
 
 .car {

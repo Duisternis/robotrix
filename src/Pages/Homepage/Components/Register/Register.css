@@ -22,6 +22,15 @@
   height: 100%;
   justify-content: center;
   align-items: center;
+  padding-top: 2rem;
+  padding-bottom: 10rem;
+  position: relative;
+  padding-top: 5rem;
+}
+.tread-reg {
+  position: absolute;
+  bottom: 0;
+  left: 0;
 }
 /* .content{
     display: flex;
@@ -69,6 +78,9 @@
   color: white !important;
 }
 
+.form input::placeholder {
+  color: white;
+}
 .form input {
   text-decoration: none;
   background: transparent;
@@ -77,6 +89,10 @@
   color: white !important;
 }
 
+.form LABEL {
+  font-family: "Formula1 Display Regular";
+  font-size: 1.5rem;
+}
 .form input {
   display: block;
   border-bottom: 1px solid white;
@@ -119,11 +135,11 @@
   color: black;
   padding: 0.5rem 2rem;
   font-size: 2rem;
-  width: 7.2rem;
+  width: 12.2rem;
 }
 .reg-submit-btn {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 2rem;
+  margin-top: 5rem;
 }

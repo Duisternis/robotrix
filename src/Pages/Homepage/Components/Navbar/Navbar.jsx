@@ -48,10 +48,10 @@ function Navbar() {
 
             <li>
               <LNK
-                to="about-hp"
+                to="about"
                 spy={true}
                 smooth={true}
-                offset={-100}
+                offset={-0}
                 duration={1000}
               >
                 ABOUT
@@ -59,7 +59,7 @@ function Navbar() {
             </li>
             <li>
               <LNK
-                to="about-hp"
+                to="schedule"
                 spy={true}
                 smooth={true}
                 offset={-100}
@@ -70,7 +70,16 @@ function Navbar() {
             </li>
 
             <li>
-              <Link to="/contact">REGISTRATION</Link>
+              <LNK
+                to="register-sec"
+                spy={true}
+                smooth={true}
+                offset={-0}
+                duration={1000}
+                id="nav-register"
+              >
+                REGISTRATION
+              </LNK>
             </li>
           </ul>
         </div>
