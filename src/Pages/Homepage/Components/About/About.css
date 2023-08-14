@@ -29,9 +29,10 @@
 }
 #box {
   background-color: aliceblue;
-  height: 40dvw;
+  height: 30dvw;
+  width: 80%;
   aspect-ratio: 16/9;
-  margin-bottom: 10dvw;
+  margin-bottom: 6dvw;
 }
 
 #about-text {
@@ -49,7 +50,7 @@
   position: absolute;
   z-index: -1;
   right: -5rem;
-  top: 45%;
+  top: 40%;
 }
 
 #tread-2 {
