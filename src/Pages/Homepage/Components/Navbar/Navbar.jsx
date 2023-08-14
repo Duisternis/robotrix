@@ -10,11 +10,19 @@ export default function Navbar() {
           <img src={IEEELogo} alt="" />
         </a>
         <div>
-          <a className="nav-items" href="">Home</a>
-          <a className="nav-items" href="">About</a>
-          <a className="nav-items" href="">Schedule</a>
+          <a className="nav-items" href="">
+            Home
+          </a>
+          <a className="nav-items" href="">
+            About
+          </a>
+          <a className="nav-items" href="">
+            Schedule
+          </a>
         </div>
-        <a id="register" className="nav-items" href="">Register</a>
+        <a id="register" className="nav-items" href="">
+          Register
+        </a>
       </nav>
     </>
   );
