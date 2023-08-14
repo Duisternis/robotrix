@@ -1,23 +1,15 @@
-*{
-    margin: 0;
-    border: border-box;
-}
-@font-face {
-    font-family: Formula1-Regular;
-    src: url(./Assets/Formula1-Regular.ttf);
-}
-@font-face {
-    font-family: Formula1-Wide;
-    src: url(./Assets/Formula1-Wide.ttf);
+* {
+  margin: 0;
+  border: border-box;
 }
 
-.heading{
-    font-family: Formula1-Regular;
-    font-size: 5rem;
-    height: 100px;
-    background-color: none;
-    color: #ED1C24;
-    margin: 20px;
+.heading {
+  font-family: var(--formula);
+  font-size: 5rem;
+  height: 100px;
+  background-color: none;
+  color: #ed1c24;
+  margin: 20px;
 }
 
 /* .content{
@@ -26,59 +18,59 @@
     align-items: center;
 } */
 
-.register-section{
-    height: 100%;
-    width: 100%;
-    /* position: absolute; */
-    /* z-index: -1; */
-    background: url(./Assets/BGimage.png);
+.register-section {
+  height: 100%;
+  width: 100%;
+  /* position: absolute; */
+  /* z-index: -1; */
+  /* background: url(./Assets/BGimage.png); */
 }
 
- .form{
-    display: block;
-    font-family: Formula1-Regular;
-    width: 50%;
-    justify-content: center;
-    align-items: center;
-    padding: 2rem;
-    font-size: 2rem;
-    position: absolute;
-    z-index: 2;
-    list-style-type: none;
-    border: 0px 0px 0px 1px;
-    background-color: transparent;
+.form {
+  display: block;
+  font-family: Formula1-Regular;
+  width: 50%;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+  font-size: 2rem;
+  position: absolute;
+  z-index: 2;
+  list-style-type: none;
+  border: 0px 0px 0px 1px;
+  background-color: transparent;
 }
 
-
- .form li{
-    text-decoration: none;
-    background: transparent;
-    padding: 2rem 0;
-    margin-left: 3rem;
+.form li {
+  text-decoration: none;
+  background: transparent;
+  padding: 2rem 0;
+  margin-left: 3rem;
 }
 
- .form input{
-    display: block;
-    border-bottom: 1px solid white;
-    font-family: Formula1-Regular;
-    font-size: 1.5rem;
-    text-transform: uppercase;
-    background: transparent;
-    border-top: 0px;
-    border-left: 0px;
-    border-right: 0px;     
-    padding: 0.5rem 0.5rem;     
- }
+.form input {
+  display: block;
+  border-bottom: 1px solid white;
+  font-family: Formula1-Regular;
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  background: transparent;
+  border-top: 0px;
+  border-left: 0px;
+  border-right: 0px;
+  padding: 0.5rem 0.5rem;
+}
 
- .form input :active{
-    border-top: 0px;
-    border-left: 0px;
-    border-right: 0px;
- }
+.form input :active {
+  border-top: 0px;
+  border-left: 0px;
+  border-right: 0px;
+}
 
- .qrimage{
-    display: flex;
-    flex-direction: row-reverse;
-    z-index: 2;
-    margin-right: 22rem;
- }
+.qrimage {
+  display: flex;
+  flex-direction: row-reverse;
+  z-index: 2;
+  margin-right: 22rem;
+  margin-top: 2rem;
+}

@@ -3,6 +3,9 @@ import Clock from "./assets/clock.png";
 import Location from "./assets/location.png";
 import Layer from "./assets/layer.png";
 import "./Schedule.css";
+import time from "./assets/time.png"
+import venue from "./assets/venue.png"
+
 
 export default function Schedule() {
   return (
