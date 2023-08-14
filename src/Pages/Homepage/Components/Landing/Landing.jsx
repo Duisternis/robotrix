@@ -6,7 +6,7 @@ import car2 from "./assets/car-2.png"
 export default function Landing() {
   return (
   <div
-  className="hero">
+  className="landing">
     <div className="front">
       <div className="links">
         <a className="link" href="https://www.instagram.com/ieeejuit/">Instagram</a>
