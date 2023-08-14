@@ -1,0 +1,16 @@
+.event{
+    display: flex;
+    flex-direction: column;
+    background-image: url(./assets/shape.png);
+    background-repeat: no-repeat;
+    width: 100px;
+}
+
+.format{
+    display: flex;
+}
+
+#events{
+    display: flex;
+    justify-content: space-around;
+}
