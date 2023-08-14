@@ -5,11 +5,9 @@ import "./Register.css";
 
 export default function Register() {
   return (
-    <main>
+    <div className="register-section" id="register-sec">
       <div className="heading">Register</div>
-      <img src={bgimage} alt="" className="bgimage" />
       <div className="content">
-        <div>
           <form action="/" method="post">
             <ul className="form">
               <li>
@@ -30,11 +28,10 @@ export default function Register() {
               </li>
             </ul>
           </form>
-        </div>
         <div className="qrimage">
-          <img src={qr} alt="" />
+          {/* <img src={qr} alt="" /> */}
         </div>
       </div>
-    </main>
+    </div>
   );
 }

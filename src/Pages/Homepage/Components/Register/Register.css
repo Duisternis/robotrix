@@ -15,22 +15,23 @@
     font-family: Formula1-Regular;
     font-size: 5rem;
     height: 100px;
-    background-color: black;
+    background-color: none;
     color: #ED1C24;
     margin: 20px;
 }
 
-.content{
+/* .content{
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-}
+} */
 
-.bgimage{
+.register-section{
     height: 100%;
     width: 100%;
-    position: absolute;
-    z-index: -1;
+    /* position: absolute; */
+    /* z-index: -1; */
+    background: url(./Assets/BGimage.png);
 }
 
  .form{
@@ -76,8 +77,8 @@
  }
 
  .qrimage{
-    width: 50%;
-    position: relative;
+    display: flex;
+    flex-direction: row-reverse;
     z-index: 2;
-    flex-direction: row;
+    margin-right: 22rem;
  }
