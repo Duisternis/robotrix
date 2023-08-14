@@ -7,7 +7,7 @@
 #Footer {
     display: flex;
     flex-direction: column;
-    background-color: rgb(39, 38, 38);
+    background-color: #232323;
     align-items: center;
 }
 
