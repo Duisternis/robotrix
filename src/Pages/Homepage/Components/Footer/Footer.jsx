@@ -20,11 +20,21 @@ export default function Footer() {
       </div>
       <div id="info">
         <div id="links">
+          <a href="https://www.youtube.com/channel/UC2hmu28LJLJqGnXj3TZwADg">
           <img src={youtube} alt="youtube" />
+          </a>
+          <a href="https://www.facebook.com/ieeejuitsb/">
           <img src={facebook} alt="facebook" />
+          </a>
+          <a href="https://www.linkedin.com/in/ieeejuitsb/">
           <img src={linkedIn} alt="linkedIn" />
+          </a>
+          <a href="https://www.instagram.com/ieeejuit/">
           <img src={instagram} alt="instagram" />
+          </a>
+          <a href="https://twitter.com/ieee_juit/">
           <img src={twitter} alt="twitter" />
+          </a>
         </div>
         <div id="contact">
           <a href="https://ieeejuit.co.in/">https://ieeejuit.co.in/</a>
