@@ -16,6 +16,8 @@ export default function Navbar() {
         </div>
         <a id="register" className="nav-items" href="">Register</a>
       </nav>
+
+      
     </>
   );
 }
