@@ -49,7 +49,8 @@ export default function Register() {
       <div className="heading">Register</div>
       <div className="register-section">
         <div className="reg-form">
-          <form
+          <h1>Registrations Full</h1>
+          {/* <form
             onSubmit={handleSubmit}
             className="reg-content form"
             // method="post"
@@ -101,8 +102,9 @@ export default function Register() {
                 SUBMIT
               </button>
             </div>
-          </form>
+          </form> */}
           <div className="qrimage">
+            <p>Limited Seats</p>
             <img src={qr} alt="" />
             <p>Registration Charges: Rs. 100 per person</p>
           </div>
