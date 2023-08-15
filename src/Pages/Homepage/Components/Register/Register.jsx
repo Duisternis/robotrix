@@ -104,6 +104,7 @@ export default function Register() {
           </form>
           <div className="qrimage">
             <img src={qr} alt="" />
+            <p>Registration Charges: Rs. 100 per person</p>
           </div>
         </div>
       </div>

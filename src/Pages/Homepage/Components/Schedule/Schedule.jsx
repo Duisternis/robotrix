@@ -29,8 +29,8 @@ export default function Schedule() {
               mask="url(#svgmask)"
             ></image>
 
-            <text x="0%" y="0%" id="text">
-              Inauguration
+            <text x="20%" y="0%" id="text">
+              DAY 1
             </text>
             <text x="0%" y="8%" id="text" className="subhead-sch">
               Introduction to Robotics
@@ -42,7 +42,7 @@ export default function Schedule() {
               </text>
               <image href={Location} x="28%" y="60.5%" width="40" height="40" />
               <text x="40%" y="70%" class="sub-text">
-                LT3
+                CL5
               </text>
             </g>
           </svg>
@@ -64,8 +64,11 @@ export default function Schedule() {
               mask="url(#svgmask)"
             ></image>
 
-            <text x="0%" y="0%" id="text">
-              Inauguration
+            <text x="20%" y="0%" id="text">
+              Day 2
+            </text>
+            <text x="0%" y="8%" id="text" className="subhead-sch">
+              Building & Programming
             </text>
             <g id="sub-text">
               <image href={Clock} x="28%" y="40.5%" width="40" height="40" />
@@ -74,7 +77,7 @@ export default function Schedule() {
               </text>
               <image href={Location} x="28%" y="60.5%" width="40" height="40" />
               <text x="40%" y="70%" class="sub-text">
-                LT3
+                CL5
               </text>
             </g>
           </svg>
@@ -96,8 +99,11 @@ export default function Schedule() {
               mask="url(#svgmask)"
             ></image>
 
-            <text x="0%" y="0%" id="text">
-              Inauguration
+            <text x="20%" y="0%" id="text">
+              Day 3
+            </text>
+            <text x="10%" y="8%" id="text" className="subhead-sch">
+              Robo Grand Prix
             </text>
             <g id="sub-text">
               <image href={Clock} x="28%" y="40.5%" width="40" height="40" />
@@ -106,7 +112,7 @@ export default function Schedule() {
               </text>
               <image href={Location} x="28%" y="60.5%" width="40" height="40" />
               <text x="40%" y="70%" class="sub-text">
-                LT3
+                CL5
               </text>
             </g>
           </svg>

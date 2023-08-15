@@ -121,13 +121,18 @@
   align-items: center;
   width: 50%;
   z-index: 2;
-  /* margin-right: 22rem; */
-  margin-top: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
 }
 
+.qrimage p {
+  font-family: var(--formulaBold);
+  font-size: 1.5rem;
+}
 .qrimage img {
-  width: 200px;
-  height: 200px;
+  width: 300px;
+  height: 300px;
 }
 
 .reg-submit {
