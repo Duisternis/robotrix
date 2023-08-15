@@ -48,6 +48,7 @@ body {
   /* margin-left: -33dvw; */
   position: absolute;
   left: -9rem;
+  z-index: 10;
 }
 
 .link {
