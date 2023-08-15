@@ -8,12 +8,32 @@
 #nav-register::after {
   background-color: #ed1c24;
 }
+.header.z-index-zero {
+  z-index: 0;
+}
 .header {
   position: fixed;
   background: transparent;
-  z-index: 1000;
+  z-index: 102;
   width: 100%;
+  /* animation: fade-in 0.5s; */
+  /* animation to pause for 6s */
+  animation: fade-in1 7s;
+  background: #000;
 }
+
+@keyframes fade-in1 {
+  0% {
+    opacity: 0;
+  }
+  90% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
 .header-wrapper {
   width: 90vw;
   margin-left: 4%;

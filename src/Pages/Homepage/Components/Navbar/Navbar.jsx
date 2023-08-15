@@ -6,6 +6,7 @@ import IEEELogo from "./Assets/ieeelogo.svg";
 import { Cross as Hamburger } from "hamburger-react";
 import { animateScroll as scroll } from "react-scroll";
 import { Link as LNK } from "react-scroll";
+
 function Navbar() {
   const [header, setHeader] = useState(false);
 

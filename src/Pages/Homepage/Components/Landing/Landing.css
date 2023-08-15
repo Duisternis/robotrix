@@ -18,6 +18,11 @@ body {
   padding-top: 15rem;
   overflow-x: hidden;
   position: relative;
+  /* changes */
+  background: url(../../Assets/preloader.gif);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }
 
 .front {
@@ -40,11 +45,17 @@ body {
   flex-direction: row;
   transform: rotate(-90deg);
   gap: 25px;
-  margin-left: -33dvw;
+  /* margin-left: -33dvw; */
+  position: absolute;
+  left: -10rem;
 }
 
 .link {
   text-decoration: none;
+}
+.link:hover {
+  text-decoration: underline;
+  color: #fff200;
 }
 
 .cars {
@@ -60,7 +71,28 @@ body {
   font-size: 10dvw;
   padding: none;
   font-style: normal;
-  animation: fade-in 5s;
+  animation: sizeChange 25s infinite, stick 6s;
+  z-index: 101;
+}
+@keyframes stick {
+  0% {
+    position: fixed;
+  }
+  90% {
+    position: fixed;
+  }
+  100% {
+    position: relative;
+  }
+}
+@keyframes sizeChange {
+  0%,
+  100% {
+    font-size: 10dvw; /* Start and end with font-size 5dvw */
+  }
+  50% {
+    font-size: 12dvw; /* Peak font-size of 10dvw */
+  }
 }
 
 #hero-subtext {
@@ -74,18 +106,18 @@ body {
   width: 4 dvw;
   max-width: 100%;
   height: auto;
-  opacity: 0.3;
+  opacity: 1; /* 0.3 */
   background: transparent;
   margin-top: -50px;
 }
 
 #img-1 {
-  animation: fade-in-left 3s;
+  animation: fade-in-left 15s;
   margin-bottom: 20px;
 }
 
 #img-2 {
-  animation: fade-in-right 3s;
+  animation: fade-in-right 15s;
 }
 
 @keyframes fade-in {
@@ -103,7 +135,7 @@ body {
     transform: translate(-10dvw, -4dvh);
   }
   100% {
-    opacity: 0.3;
+    opacity: 1;
     transform: translate(0, 0);
   }
 }
@@ -114,7 +146,7 @@ body {
     transform: translate(10dvw, -4dvh);
   }
   100% {
-    opacity: 0.3;
+    opacity: 1;
     transform: translate(0, 0);
   }
 }

@@ -104,7 +104,7 @@
   border-left: 0px;
   border-right: 0px;
   padding: 0.5rem 0.5rem;
-  width: 50%;
+  width: 70%;
   color: white !important;
 }
 
@@ -142,4 +142,5 @@
   justify-content: center;
   align-items: center;
   margin-top: 5rem;
+  width: 70%;
 }

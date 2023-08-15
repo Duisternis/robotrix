@@ -6,10 +6,12 @@ import Schedule from "./Components/Schedule/Schedule";
 import Register from "./Components/Register/Register";
 import Footer from "./Components/Footer/Footer";
 import "./Homepage.css";
+import Preloader from "./Preloader";
 
 export default function Homepage() {
   return (
     <div>
+      <Preloader />
       <Navbar />
       <Landing />
       <About />

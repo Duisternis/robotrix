@@ -32,6 +32,9 @@ export default function Schedule() {
             <text x="0%" y="0%" id="text">
               Inauguration
             </text>
+            <text x="0%" y="8%" id="text" className="subhead-sch">
+              Introduction to Robotics
+            </text>
             <g id="sub-text">
               <image href={Clock} x="28%" y="40.5%" width="40" height="40" />
               <text x="40%" y="50%" class="sub-text">
