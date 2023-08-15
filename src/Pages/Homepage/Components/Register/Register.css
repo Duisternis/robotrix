@@ -5,14 +5,14 @@
 
 .heading {
   font-family: "Formula1 Display Wide";
-  font-size: 5vw;
+  font-size: 4vw;
   height: 100px;
   background-color: none;
   color: #ed1c24;
   margin: 20px;
   display: flex;
   width: 100%;
-  padding-left: 10rem;
+  padding-left: 8rem;
 }
 #register-sec {
   overflow-x: hidden;

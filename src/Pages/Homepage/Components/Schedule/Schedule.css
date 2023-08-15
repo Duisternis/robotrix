@@ -8,12 +8,12 @@
 .cards-outer h1 {
   color: #ed1c24;
   font-family: "Formula1 Display Wide";
-  font-size: 5vw;
+  font-size: 4vw;
   font-style: normal;
   font-weight: 500;
   line-height: normal;
   text-transform: capitalize;
-  padding-inline: 5rem;
+  padding-inline: 4rem;
   /* display: flex; */
   /* width: 100%; */
 }
