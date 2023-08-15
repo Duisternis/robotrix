@@ -103,11 +103,11 @@ export default function Register() {
               </button>
             </div>
           </form> */}
-          <div className="qrimage">
+          {/* <div className="qrimage">
             <p>Limited Seats</p>
             <img src={qr} alt="" />
             <p>Registration Charges: Rs. 100 per person</p>
-          </div>
+          </div> */}
         </div>
       </div>
     </div>

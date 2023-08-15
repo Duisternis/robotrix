@@ -114,6 +114,9 @@
   border-right: 0px;
   color: white !important;
 }
+.reg-form h1 {
+  font-size: 7rem;
+}
 
 .qrimage {
   display: flex;
