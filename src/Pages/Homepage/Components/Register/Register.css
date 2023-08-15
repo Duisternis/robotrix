@@ -114,6 +114,14 @@
   border-right: 0px;
   color: white !important;
 }
+.reg-form {
+  display: flex;
+  flex-direction: column;
+}
+.reg-form h3 {
+  font-size: 2rem;
+  font-family: var(--formulaRegular);
+}
 .reg-form h1 {
   font-size: 7rem;
 }

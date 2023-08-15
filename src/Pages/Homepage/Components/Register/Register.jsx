@@ -50,6 +50,7 @@ export default function Register() {
       <div className="register-section">
         <div className="reg-form">
           <h1>Registrations Full</h1>
+          <h3>You'll be contacted soon if you have registered successfully!</h3>
           {/* <form
             onSubmit={handleSubmit}
             className="reg-content form"
