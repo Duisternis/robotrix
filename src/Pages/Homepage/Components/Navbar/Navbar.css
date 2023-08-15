@@ -45,6 +45,7 @@
 }
 .header-logo {
   z-index: 400;
+  width: 9rem;
 }
 .header-logojyc {
   display: flex;
