@@ -7,6 +7,7 @@ import Register from "./Components/Register/Register";
 import Footer from "./Components/Footer/Footer";
 import "./Homepage.css";
 import Preloader from "./Preloader";
+import Megadrone from "./Components/Upcoming/Megadrone";
 
 export default function Homepage() {
   return (
@@ -17,6 +18,7 @@ export default function Homepage() {
       <About />
       <Schedule />
       <Register />
+      <Megadrone />
       <Footer />
     </div>
   );

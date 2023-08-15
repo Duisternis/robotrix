@@ -47,12 +47,16 @@
   padding-left: 8rem;
   font-family: "Formula1 Display Wide";
 }
+.robo-poster {
+  width: 70%;
+  padding: 2rem 0;
+}
 
 .treads {
   position: absolute;
   z-index: -1;
   right: -5rem;
-  top: 30%;
+  top: 38%;
 }
 
 #tread-2 {

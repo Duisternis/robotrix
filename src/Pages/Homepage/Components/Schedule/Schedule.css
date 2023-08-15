@@ -60,7 +60,24 @@
 }
 
 .subhead-sch {
-  font-size: 23px !important;
+  font-size: 26px !important;
+  color: white !important;
+  animation: race 5s ease-in-out infinite;
+}
+.subhead-sch-l {
+  font-size: 38px !important;
+  animation: race 5s ease-in-out infinite;
+}
+@keyframes race {
+  0% {
+    transform: translateX(0px);
+  }
+  50% {
+    transform: translateX(-10px);
+  }
+  100% {
+    transform: translateX(0px);
+  }
 }
 .cards {
   padding-inline: 10px;
@@ -71,7 +88,7 @@
   fill: white;
   transform: translate(6.8rem, 7rem) /* rotate(-7.187deg) */;
   font-family: "Racing Sans One", sans-serif;
-  font-size: 2.8125rem;
+  font-size: 4rem;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
@@ -81,7 +98,7 @@
 #sub-text text {
   fill: #fdfdfd;
   font-family: "Racing Sans One", sans-serif;
-  font-size: 3.124rem;
+  font-size: 2.5rem;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
@@ -89,7 +106,7 @@
 }
 
 .cards-inner image {
-  filter: brightness(0.8);
+  /* filter: brightness(0.8); */
 }
 
 @media (max-width: 400px) {

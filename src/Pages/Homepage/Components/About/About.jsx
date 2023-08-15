@@ -1,6 +1,7 @@
 import React from "react";
 import "./About.css";
 import Treads from "./Assets/treads.png";
+import RoboPoster from "./Assets/poster.png";
 
 export default function About() {
   return (
@@ -10,7 +11,7 @@ export default function About() {
         <img src={Treads} className="treads" id="tread-2" alt="" />
       </div>
       <p id="about-text">About</p>
-      <div id="box"></div>
+      <img src={RoboPoster} className="robo-poster" alt="" />
       <div className="about-text">
         <p id="upper-text">
           Welcome to Robotrix: A 3-Day Workshop on Robotics and Robo Race!
