@@ -107,7 +107,7 @@ body {
   font-size: 1.75dvw;
   margin-top: -20px;
   animation: fade-in 5s;
-  font-family: var(--formula-regular);
+  font-family: var(--formulaRegular);
 }
 
 .car {

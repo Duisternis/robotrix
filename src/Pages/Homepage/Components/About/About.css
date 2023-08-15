@@ -24,7 +24,7 @@
   color: azure;
   font-size: 1.8rem;
   text-align: center;
-  font-family: "Formula1 Display Regular";
+  font-family: var(--formulaRegular);
   /* padding: 0 4.7vw; */
   text-align: justify;
 }
