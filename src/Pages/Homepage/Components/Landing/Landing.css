@@ -1,7 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Racing+Sans+One&family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 
+
 body {
   font-family: "Racing Sans One", cursive;
+  width: 100%;
 }
 
 * {
@@ -45,9 +47,8 @@ body {
   flex-direction: row;
   transform: rotate(-90deg);
   gap: 25px;
-  /* margin-left: -33dvw; */
   position: absolute;
-  left: -9rem;
+  left: -50px;
   z-index: 10;
 }
 
@@ -105,15 +106,13 @@ body {
 
 #hero-subtext {
   font-size: 1.75dvw;
-  margin-top: -20px;
   animation: fade-in 5s;
   font-family: var(--formulaRegular);
 }
 
 .car {
-  width: 4 dvw;
+  width: 40dvw;
   max-width: 100%;
-  height: auto;
   opacity: 1; /* 0.3 */
   background: transparent;
   margin-top: -50px;
