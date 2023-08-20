@@ -159,5 +159,27 @@
   justify-content: center;
   align-items: center;
   margin-top: 5rem;
-  width: 70%;
+  width: 100%;
+}
+
+@media (max-width: 576px){
+  .heading{
+    width: 100%;
+    font-size: 9vw;
+    text-align: center;
+  }
+  .form{
+    padding-left: 0rem;
+    width: 90%;
+  }
+  .form input{
+    font-size: 1.5rem;
+    width: 100%;
+  }
+  .reg-form h1{
+    font-size: 3.5rem;
+  }
+  .reg-content h3{
+    font-size: 1.5rem;
+  }
 }
