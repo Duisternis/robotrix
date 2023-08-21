@@ -162,24 +162,42 @@
   width: 100%;
 }
 
-@media (max-width: 576px){
-  .heading{
+@media (max-width: 576px) {
+  .heading {
     width: 100%;
-    font-size: 9vw;
+    font-size: 4vw;
     text-align: center;
+    height: auto;
   }
-  .form{
+  .form {
     padding-left: 0rem;
     width: 90%;
   }
-  .form input{
+  .form input {
     font-size: 1.5rem;
     width: 100%;
   }
-  .reg-form h1{
-    font-size: 3.5rem;
+  .reg-form h1 {
+    font-size: 2rem;
   }
-  .reg-content h3{
+  .reg-content h3 {
     font-size: 1.5rem;
+  }
+  .reg-head {
+    margin-left: 3rem;
+    padding: 0;
+  }
+  .reg-form h3 {
+    font-size: 1.3rem;
+    text-align: center;
+    padding: 0 2rem;
+  }
+  #register-sec {
+    padding-top: 0;
+    padding-bottom: 3rem;
+    overflow: hidden;
+  }
+  .tread-reg {
+    bottom: -80px;
   }
 }
