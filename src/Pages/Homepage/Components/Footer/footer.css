@@ -69,3 +69,17 @@ a {
   margin-top: 3dvw;
   font-size: 3dvw;
 }
+
+@media screen and (max-width: 500px) {
+  #logos .logo:nth-child(1) {
+    margin-left: 0rem;
+  }
+  #logos .logo:nth-child(2) {
+    width: 5rem;
+    height: 1rem;
+  }
+  #logos .logo:nth-child(3) {
+    margin-right: 0rem;
+    width: 3rem;
+  }
+}
